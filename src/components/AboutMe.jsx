@@ -2,7 +2,7 @@ import React from 'react';
 import foto from '../assets/images/fotoFB.jpg';
 import resume from '../assets/pdf/CV Leonardo Torres - en.pdf';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloudArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faCloudArrowDown, faDiamond } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = () => {
 	return (
@@ -173,7 +173,36 @@ const AboutMe = () => {
 					<p className='mt-8 text-center lg:text-start text-gray-400 tracking-wide text-xl mb-6'>
 						Also, I like to learn about new things for the web, so you should never limit your learning ;)
 					</p>
-					<div className='flex justify-center lg:justify-start'>
+					<div className='block text-left my-6 text-lg'>
+						<p className='text-gray-400'>These are a few technologies I've been working with recently:</p>
+						<div className='block sm:flex gap-14 text-green-500/80 mt-2'>
+							<div className='sm:ml-10'>
+								<p className='flex items-center justify-start gap-3'>
+									<FontAwesomeIcon icon={faDiamond} className='text-xs m-0 text-cyan-500/80' />
+									React.js
+								</p>
+								<p className='flex items-center justify-start gap-3'>
+									<FontAwesomeIcon icon={faDiamond} className='text-xs m-0 text-cyan-500/80' />
+									JavaScript(ES6+)
+								</p>
+								<p className='flex items-center justify-start gap-3'>
+									<FontAwesomeIcon icon={faDiamond} className='text-xs m-0 text-cyan-500/80' />
+									Node.js
+								</p>
+							</div>
+							<div>
+								<p className='flex items-center justify-start gap-3'>
+									<FontAwesomeIcon icon={faDiamond} className='text-xs m-0 text-cyan-500/80' />
+									Next.js
+								</p>
+								<p className='flex items-center justify-start gap-3'>
+									<FontAwesomeIcon icon={faDiamond} className='text-xs m-0 text-cyan-500/80' />
+									TailwindCSS
+								</p>
+							</div>
+						</div>
+					</div>
+					<div className='flex justify-center lg:justify-start mt-8'>
 						<a
 							download='CV-Leonardo-Torres'
 							href={resume}

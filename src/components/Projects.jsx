@@ -13,7 +13,7 @@ const Projects = () => {
 	return (
 		<>
 			<div className='flex items-center justify-center gap-2 animate-pulse'>
-				<h3 className='text-4xl font-bold tracking-wide text-center text-sky-400/90 rounded my-4'>React</h3>
+				<h3 className='text-4xl font-bold tracking-wide text-center text-sky-400/90 rounded my-8'>React</h3>
 				<img src={logoReact} alt='icono' className='logo-react animate-spin-slow' />
 			</div>
 			{/* </div> */}
