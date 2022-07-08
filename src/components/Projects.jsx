@@ -117,11 +117,12 @@ const Projects = () => {
 									</p>
 								</div>
 							</div>
-							<p className='text-white/80 text-base my-2'>
+							<p className='text-xs text-orange-300 mt-1 italic '>(Refresh the page in case an error appears)</p>
+							<p className='text-white/80 text-base my-1'>
 								This is a Guitar Shop, where all the information is getting from an API and CMS (strapi).
 							</p>
 
-							<p className='text-gray-500 flex flex-wrap gap-2 items-center leading-4 text-sm my-9'>
+							<p className='text-gray-500 flex flex-wrap gap-2 items-center leading-4 text-sm my-7'>
 								<span>MongoDB</span>
 								<span>Strapi(CMS)</span>
 								<span>React.js</span>
