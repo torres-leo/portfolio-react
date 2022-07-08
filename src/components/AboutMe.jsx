@@ -133,7 +133,7 @@ const AboutMe = () => {
 						</a>
 					</li>
 				</ul>
-				<ul className='mt-4 lg:mt-2 flex justify-center lg:flex-col font-bold text-xs'>
+				<ul className='mt-4 lg:mt-2 flex justify-center lg:flex-col font-bold text-xs animate-pulse'>
 					<li className='text-center bg-slate-300 p-2 rounded-l-xl pl-3 lg:rounded-none lg:pl-2 lg:rounded-t-xl lg:mt-4'>
 						S
 					</li>
@@ -155,7 +155,19 @@ const AboutMe = () => {
 					</h3>
 					<p className='mt-8 text-center lg:text-start text-gray-400 tracking-wide text-xl'>
 						I'm a Frontend Developer. I am passionate about technology and programming, I always try to improve as
-						programmer, I really enjoy coding. Currently I'm using React.js to develop my apps and following the MERN
+						programmer, I really enjoy coding. Currently I'm using{' '}
+						<span className='text-cyan-500 font-bold hover:text-cyan-600 transition-colors hover:underline hover:underline-offset-4'>
+							<a href='https://reactjs.org' target='_blank'>
+								{' '}
+								React.js
+							</a>
+						</span>{' '}
+						to develop my apps and following the{' '}
+						<span className='font-bold text-green-500 hover:underline hover:underline-offset-4'>
+							<a href='https://www.mongodb.com/mern-stack' target='_blank'>
+								MERN
+							</a>
+						</span>{' '}
 						stack.
 					</p>
 					<p className='mt-8 text-center lg:text-start text-gray-400 tracking-wide text-xl mb-6'>
