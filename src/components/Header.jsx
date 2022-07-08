@@ -14,7 +14,7 @@ const Header = () => {
 						Hi, I'm <span className='text-green-500 tracking-wider'>Leonardo Torres</span>.
 					</h1>
 					<h2 className='typing text-5xl tracking-wider font-bold arima mt-4 md:mt-1'>I'm a Frontend Developer.</h2>
-					<svg className='md:mt-44 mt-40 ease-out animate-bounce w-24 h-14'>
+					<svg className='xs:mt-20 md:mt-36 mt-40 ease-out animate-bounce w-24 h-14'>
 						<FontAwesomeIcon icon={faCircleArrowDown} size='3x' onClick={handleClick} className='cursor-pointer' />
 					</svg>
 				</div>
