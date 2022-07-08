@@ -163,7 +163,7 @@ const AboutMe = () => {
 							</a>
 						</span>{' '}
 						to develop my apps and following the{' '}
-						<span className='font-bold text-green-500 hover:underline hover:underline-offset-4'>
+						<span className='font-bold text-green-500 hover:underline hover:underline-offset-4 hover:text-green-600/90 transition-colors'>
 							<a href='https://www.mongodb.com/mern-stack' target='_blank'>
 								MERN
 							</a>
