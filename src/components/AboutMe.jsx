@@ -162,7 +162,7 @@ const AboutMe = () => {
 					</p>
 					<div className='flex justify-center lg:justify-start'>
 						<a
-							download
+							download=''
 							href='../assets/pdf/CV Leonardo Torres - en.pdf'
 							className='p-2 bg-gradient-to-br from-cyan-600 to-emerald-500 rounded-xl hover:from-cyan-600/80 hover:to-emerald-500/80 transition-colors text-white font-bold flex items-center justify-center gap-2 w-full xs:w-2/3 md:w-1/2 lg:w-2/3 uppercase tracking-wider shadow-2xl shadow-cyan-600'>
 							Resume
