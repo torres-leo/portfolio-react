@@ -28,7 +28,10 @@ const Projects = () => {
 							<div className='flex items-center'>
 								<h5 className='text-sky-400 text-xl font-medium flex-1'>Uptask MERN</h5>
 								<p>
-									<a className='flex items-center gap-3 p-1' href='https://github.com/torres-leo/Uptask_MERN-Frontend'>
+									<a
+										className='flex items-center gap-3 p-1'
+										href='https://github.com/torres-leo/Uptask_MERN-Frontend'
+										target='_blank'>
 										<svg
 											xmlns='http://www.w3.org/2000/svg'
 											className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -68,7 +71,8 @@ const Projects = () => {
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://github.com/torres-leo/Uptask_MERN-Frontend'>
+									href='https://github.com/torres-leo/Uptask_MERN-Frontend'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
@@ -88,7 +92,7 @@ const Projects = () => {
 								<h5 className='text-sky-400 text-xl font-medium '>Guitar LA</h5>
 								<div>
 									<p className='flex items-center gap-3 p-1'>
-										<a href='https://github.com/torres-leo/guitarla-strapi'>
+										<a href='https://github.com/torres-leo/guitarla-next' target='_blank'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -104,7 +108,7 @@ const Projects = () => {
 												<path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5' />
 											</svg>
 										</a>
-										<a href='https://guitarla-next-snowy.vercel.app'>
+										<a href='https://guitarla-next-snowy.vercel.app' target='_blank'>
 											<FontAwesomeIcon
 												icon={faUpRightFromSquare}
 												className='text-lg text-teal-500/70 hover:text-lime-500'
@@ -123,13 +127,13 @@ const Projects = () => {
 								<span>React.js</span>
 								<span>Next.js</span>
 								<span>Context API</span>
-								<span>Hooks</span>
 							</p>
 
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://guitarla-next-snowy.vercel.app'>
+									href='https://guitarla-next-snowy.vercel.app'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
@@ -149,7 +153,7 @@ const Projects = () => {
 								<h5 className='text-sky-400 text-xl font-medium flex-1'>Cryptocurrencies</h5>
 								<div>
 									<p className='flex items-center gap-3 p-1'>
-										<a href='https://github.com/torres-leo/criptomonedas-react'>
+										<a href='https://github.com/torres-leo/criptomonedas-react' target='_blank'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -165,7 +169,7 @@ const Projects = () => {
 												<path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5' />
 											</svg>
 										</a>
-										<a href='https://criptomoneda-react-leo-torres.netlify.app'>
+										<a href='https://criptomoneda-react-leo-torres.netlify.app' target='_blank'>
 											<FontAwesomeIcon
 												icon={faUpRightFromSquare}
 												className='text-lg text-teal-500/70 hover:text-lime-500'
@@ -176,7 +180,10 @@ const Projects = () => {
 							</div>
 							<p className='text-white/80 text-base my-2'>
 								Get a number of top coins(15) by their market cap. Getting data from the web site:{' '}
-								<a href='https://www.cryptocompare.com/' className='font-medium italic underline underline-offset-4'>
+								<a
+									href='https://www.cryptocompare.com'
+									className='font-medium italic underline underline-offset-4'
+									target='_blank'>
 									cryptocompare
 								</a>
 								.
@@ -192,7 +199,8 @@ const Projects = () => {
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://criptomoneda-react-leo-torres.netlify.app'>
+									href='https://criptomoneda-react-leo-torres.netlify.app'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
@@ -212,7 +220,7 @@ const Projects = () => {
 								<h5 className='text-sky-400 text-xl font-medium flex-1'>Budget Control</h5>
 								<div>
 									<p className='flex items-center gap-3 p-1'>
-										<a href='https://github.com/torres-leo/control-presupuesto-react'>
+										<a href='https://github.com/torres-leo/control-presupuesto-react' target='_blank'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -228,7 +236,7 @@ const Projects = () => {
 												<path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5' />
 											</svg>
 										</a>
-										<a href='https://control-presupuesto-leo-torres.netlify.app'>
+										<a href='https://control-presupuesto-leo-torres.netlify.app' target='_blank'>
 											<FontAwesomeIcon
 												icon={faUpRightFromSquare}
 												className='text-lg text-teal-500/70 hover:text-lime-500'
@@ -244,12 +252,14 @@ const Projects = () => {
 							<p className='text-gray-500 flex flex-wrap gap-2 items-center leading-4 text-sm my-8'>
 								<span>React.js</span>
 								<span>Context API</span>
+								<span>Local Storage</span>
 							</p>
 
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://control-presupuesto-leo-torres.netlify.app'>
+									href='https://control-presupuesto-leo-torres.netlify.app'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
@@ -269,7 +279,7 @@ const Projects = () => {
 								<h5 className='text-sky-400 text-xl font-medium '>Auto Insurence</h5>
 								<div>
 									<p className='flex items-center gap-3 p-1'>
-										<a href='https://github.com/torres-leo/seguro-autos'>
+										<a href='https://github.com/torres-leo/seguro-autos' target='_blank'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -285,7 +295,7 @@ const Projects = () => {
 												<path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5' />
 											</svg>
 										</a>
-										<a href='https://cotizador-autos-leo-torres.netlify.app'>
+										<a href='https://cotizador-autos-leo-torres.netlify.app' target='_blank'>
 											<FontAwesomeIcon
 												icon={faUpRightFromSquare}
 												className='text-lg text-teal-500/70 hover:text-lime-500'
@@ -306,7 +316,8 @@ const Projects = () => {
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://cotizador-autos-leo-torres.netlify.app'>
+									href='https://cotizador-autos-leo-torres.netlify.app'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
@@ -326,7 +337,7 @@ const Projects = () => {
 								<h5 className='text-sky-400 text-xl font-medium flex-1'>To-do List</h5>
 								<div>
 									<p className='flex items-center gap-3 p-1'>
-										<a href='https://github.com/torres-leo/Todo-React'>
+										<a href='https://github.com/torres-leo/Todo-React' target='_blank'>
 											<svg
 												xmlns='http://www.w3.org/2000/svg'
 												className='icon icon-tabler icon-tabler-brand-github filtro'
@@ -342,7 +353,7 @@ const Projects = () => {
 												<path d='M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5' />
 											</svg>
 										</a>
-										<a href='https://todo-react-leo-torres.netlify.app'>
+										<a href='https://todo-react-leo-torres.netlify.app' target='_blank'>
 											<FontAwesomeIcon
 												icon={faUpRightFromSquare}
 												className='text-lg text-teal-500/70 hover:text-lime-500'
@@ -358,12 +369,14 @@ const Projects = () => {
 								<span>Styled Components</span>
 								<span>Context API</span>
 								<span>Hooks</span>
+								<span>Local Storage</span>
 							</p>
 
 							<div className='absolute inset-x-0 bottom-0'>
 								<a
 									className='flex justify-center items-center gap-2 p-2 bg-gradient-to-r from-green-400/50 to-sky-400/50 rounded text-sm font-medium text-white cursor-pointer hover:bg-green-400/30'
-									href='https://github.com/torres-leo/Uptask_MERN-Frontend'>
+									href='https://todo-react-leo-torres.netlify.app'
+									target='_blank'>
 									visit project
 									<FontAwesomeIcon icon={faEye} className='text-lg m-0' />
 								</a>
