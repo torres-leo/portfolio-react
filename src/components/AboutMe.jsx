@@ -170,7 +170,7 @@ const AboutMe = () => {
 					</p>
 					<p className='mt-8 text-center lg:text-start text-gray-400 tracking-wide text-xl mb-6'>
 						Also, I like to learn about new things for the web.{' '}
-						<span className='block text-xl text-gray-400'>¡Never stop Learning! ;)</span>
+						<span className='block text-xl text-gray-400'>¡ Never stop Learning ! ;)</span>
 					</p>
 					<div className='block text-left my-6 text-lg'>
 						<p className='text-gray-400'>These are a few technologies I've been working with recently:</p>
