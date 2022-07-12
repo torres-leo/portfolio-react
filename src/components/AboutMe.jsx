@@ -7,10 +7,8 @@ import { faCloudArrowDown, faDiamond } from '@fortawesome/free-solid-svg-icons';
 const AboutMe = () => {
 	return (
 		<>
-			<div className='flex justify-center items-center uppercase mb-4'>
-				<h2
-					className='arima p-2 rounded text-4xl md:text-6xl font-medium mt-6 underline underline-offset-8 text-white tracking-widest shadow-gray-400'
-					id='aboutme'>
+			<div className='flex justify-center uppercase mb-4' id='aboutme'>
+				<h2 className='arima p-2 rounded text-4xl md:text-6xl font-medium mt-6 underline underline-offset-8 text-white tracking-widest shadow-gray-400'>
 					About me
 				</h2>
 			</div>
