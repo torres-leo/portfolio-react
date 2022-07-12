@@ -13,7 +13,7 @@ const Contact = () => {
 				</p>
 				<p className='text-center text-cyan-300 text-xl mt-3'>Send me a message on my social networks ;)</p>
 			</div>
-			<ul className='mt-2 gap-2 flex justify-center cursor-pointer p-4 rounded-xl'>
+			<ul className='mt-4 gap-2 flex justify-center cursor-pointer p-4 rounded-xl'>
 				{/* LINKEDIN */}
 				<li
 					className='p-2 bg-gradient-to-bl from-indigo-600/80 to-green-600/80 hover:animate-bounce lg:hover:animate-pulse rounded-full'
