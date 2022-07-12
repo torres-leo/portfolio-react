@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => {
 	return (
 		<section className='bg-gradient-to-br from-gray-800/60 p-10' id='contact'>
-			<h3 className='arima rounded text-4xl md:text-6xl font-medium underline underline-offset-8 text-white tracking-widest shadow-gray-400 relative flex justify-center'>
+			<h3 className='arima rounded text-4xl md:text-6xl font-black underline underline-offset-8 text-white tracking-widest shadow-gray-400 relative flex justify-center'>
 				Contact
 			</h3>
 

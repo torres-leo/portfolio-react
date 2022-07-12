@@ -8,7 +8,7 @@ const AboutMe = () => {
 	return (
 		<>
 			<div className='flex justify-center uppercase mb-4' id='aboutme'>
-				<h2 className='arima p-2 rounded text-4xl md:text-6xl font-medium mt-6 underline underline-offset-8 text-white tracking-widest shadow-gray-400'>
+				<h2 className='arima p-2 rounded text-4xl md:text-6xl font-black mt-6 underline underline-offset-8 text-white tracking-widest shadow-gray-400'>
 					About me
 				</h2>
 			</div>
@@ -169,7 +169,8 @@ const AboutMe = () => {
 						stack.
 					</p>
 					<p className='mt-8 text-center lg:text-start text-gray-400 tracking-wide text-xl mb-6'>
-						Also, I like to learn about new things for the web, so you should never limit your learning ;)
+						Also, I like to learn about new things for the web.{' '}
+						<span className='block'>You should never limit your learning ;)</span>
 					</p>
 					<div className='block text-left my-6 text-lg'>
 						<p className='text-gray-400'>These are a few technologies I've been working with recently:</p>
